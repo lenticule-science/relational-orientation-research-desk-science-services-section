@@ -1,7 +1,7 @@
 {
   "type": "CuriosityResearchMarketProviderBinding",
   "status": "active",
-  "customer": "urn:ame:relational-orientation-research-desk",
+  "customer": "urn:ame:relational-orientation-research-desk-science-services-section",
   "provider": "urn:ame:curiosity-research-market-enterprise",
   "purpose": "research-packet-production",
   "agentUrl": "http://127.0.0.1:18441/.well-known/agent-card.json",

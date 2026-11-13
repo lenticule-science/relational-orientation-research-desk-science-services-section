@@ -14,6 +14,6 @@ Source-grounded reusable relational research packets for exact settled buyers an
 ## Code
 
 This repository holds section data only. The executable code that used to live here moved to
-[`red-cup-engineering/relational-orientation-research-desk`](https://github.com/red-cup-engineering/relational-orientation-research-desk) (received 2026-10-24 from
-`lenticule-science/relational-orientation-research-desk@289f86ba9022`). That engine reads this data from `SECTION_ROOT` (default: its current working directory),
+[`red-cup-engineering/relational-orientation-research-desk-science-services-section`](https://github.com/red-cup-engineering/relational-orientation-research-desk-science-services-section) (received 2026-10-24 from
+`lenticule-science/relational-orientation-research-desk-science-services-section@289f86ba9022`). That engine reads this data from `SECTION_ROOT` (default: its current working directory),
 so point `SECTION_ROOT` at a checkout of this repository.

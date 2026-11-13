@@ -1,7 +1,7 @@
 {
   "type": "SourceEvidenceAttestationProviderBinding",
   "status": "active",
-  "customer": "urn:ame:relational-orientation-research-desk",
+  "customer": "urn:ame:relational-orientation-research-desk-science-services-section",
   "provider": "urn:ame:source-evidence-attestation-enterprise",
   "agentUrl": "http://127.0.0.1:18442/.well-known/agent-card.json",
   "agentCardIdentity": "ni:///sha-256;hcpkJm-LgOM2CgI6giEi8y2-7x-Mtcxsb_lsWDY6ff4",

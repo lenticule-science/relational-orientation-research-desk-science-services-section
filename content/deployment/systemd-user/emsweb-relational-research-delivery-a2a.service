@@ -4,16 +4,16 @@ After=network.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/emsenn/bare-cedar-fog/services/rsc-quiescent/services/emsweb/services/relational-orientation-research-desk
+WorkingDirectory=/home/emsenn/bare-cedar-fog/services/rsc-quiescent/services/emsweb/services/relational-orientation-research-desk-science-services-section
 ExecStart=/home/emsenn/.config/nvm/versions/node/v24.13.1/bin/node src/serve-delivery-a2a.mjs
-Environment=RELATIONAL_RESEARCH_DATA_ROOT=/home/emsenn/bare-cedar-fog/services/rsc-quiescent/services/emsweb/services/relational-orientation-research-desk/data
+Environment=RELATIONAL_RESEARCH_DATA_ROOT=/home/emsenn/bare-cedar-fog/services/rsc-quiescent/services/emsweb/services/relational-orientation-research-desk-science-services-section/data
 Restart=on-failure
 RestartSec=5s
 NoNewPrivileges=true
 PrivateTmp=true
 ProtectSystem=strict
 ProtectHome=read-only
-ReadWritePaths=/home/emsenn/bare-cedar-fog/services/rsc-quiescent/services/emsweb/services/relational-orientation-research-desk/data/a2a/tasks
+ReadWritePaths=/home/emsenn/bare-cedar-fog/services/rsc-quiescent/services/emsweb/services/relational-orientation-research-desk-science-services-section/data/a2a/tasks
 InaccessiblePaths=/home/emsenn/bare-cedar-fog/services/rsc-quiescent/services/emsweb/services/youtube-channel-enterprise
 ProtectKernelTunables=true
 ProtectKernelModules=true
