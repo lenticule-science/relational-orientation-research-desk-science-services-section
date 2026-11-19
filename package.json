@@ -1,0 +1,9 @@
+{
+  "name": "@lenticule-science/relational-orientation-research-desk-science-services-section",
+  "description": "relational-orientation-research-desk-science-services-section is a services section of the 561 Group.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenticule-science/relational-orientation-research-desk-science-services-section.git"
+  }
+}
