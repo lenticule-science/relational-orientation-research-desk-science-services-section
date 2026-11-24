@@ -1,0 +1,26 @@
+[
+  {
+    "source": "lenticule-science/relational-orientation-research-desk-science-services-section",
+    "ref": "refs/archive/branches/chief-information-officer/sync-20261025",
+    "commit": "13e089b4c6f077a059cffc54a7043497bb72115d",
+    "reviewedAgainst": "57f5b4d8a4d956155af6d114f03e71fed3302fcb",
+    "files": [
+      {
+        "path": "content/deployment/systemd-user/emsweb-relational-live-research-a2a.service",
+        "mode": "100644",
+        "oid": "536416f33b9fc307884679dfcff35b825ce8f378",
+        "receiver": "lenticule-science/relational-orientation-research-desk-science-services-section",
+        "disposition": "Recovered original source at the listed path",
+        "receivedPath": "lib/legacy/2026-10-source-recovery/lenticule-science/relational-orientation-research-desk-science-services-section/content/deployment/systemd-user/emsweb-relational-live-research-a2a.service"
+      },
+      {
+        "path": "content/deployment/systemd-user/emsweb-relational-research-delivery-a2a.service",
+        "mode": "100644",
+        "oid": "31da507fd191a2d00956db12243cf7f14532d4b1",
+        "receiver": "lenticule-science/relational-orientation-research-desk-science-services-section",
+        "disposition": "Recovered original source at the listed path",
+        "receivedPath": "lib/legacy/2026-10-source-recovery/lenticule-science/relational-orientation-research-desk-science-services-section/content/deployment/systemd-user/emsweb-relational-research-delivery-a2a.service"
+      }
+    ]
+  }
+]

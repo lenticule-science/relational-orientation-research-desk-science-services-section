@@ -1,0 +1,34 @@
+[Unit]
+Description=emsWeb relational research offer and packet-production A2A provider
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/emsenn/bare-cedar-fog/services/rsc-quiescent/services/emsweb/services/relational-orientation-research-desk-science-services-section
+ExecStart=/home/emsenn/.config/nvm/versions/node/v24.13.1/bin/node src/serve-live-research-a2a.mjs
+Environment=RELATIONAL_RESEARCH_DATA_ROOT=/home/emsenn/bare-cedar-fog/services/rsc-quiescent/services/emsweb/services/relational-orientation-research-desk-science-services-section/data
+Environment=RELATIONAL_RESEARCH_SETTLEMENT_ACCOUNT=eip155:31337:0xeca54188dbe5a59917a73a8119cef33216a162b5
+Environment=SEAVT_DOCUMENT_AGENT=http://127.0.0.1:19764/.well-known/agent-card.json
+Restart=on-failure
+RestartSec=5s
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/emsenn/bare-cedar-fog/services/rsc-quiescent/services/emsweb/services/relational-orientation-research-desk-science-services-section/data
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectKernelLogs=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictRealtime=true
+LockPersonality=true
+RemoveIPC=true
+CapabilityBoundingSet=
+AmbientCapabilities=
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+SystemCallArchitectures=native
+UMask=0077
+
+[Install]
+WantedBy=default.target
